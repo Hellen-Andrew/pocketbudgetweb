@@ -55,7 +55,7 @@ const PinkNavBar = () => {
           <div
             className={
               showMenu
-                ? "lg:flex lg:flex-gro items-center"
+                ? "lg:flex lg:flex-grow items-center"
                 : "hidden lg:flex lg:flex-grow items-center"
             }
             class="lg:flex lg:flex-grow items-center"
