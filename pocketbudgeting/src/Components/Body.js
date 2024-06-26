@@ -29,16 +29,29 @@ const Body = () => {
               </div>
             </div>
             <div className="flex flex-row items-center justify-center gap-4">
-              <img
-                src={require("../assets/imgs/playstore.png")}
-                width="120px"
-                alt="playstore img"
-              />
-              <img
-                src={require("../assets/imgs/apple.png")}
-                width="120px"
-                alt="appstore img"
-              />
+              <a
+                href="https://play.google.com/store/apps/details?id=co.tz.pocket_app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("../assets/imgs/playstore.png")}
+                  width="120px"
+                  alt="playstore img"
+                />
+              </a>
+
+              <a
+                href="https://play.google.com/store/apps/details?id=co.tz.pocket_app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={require("../assets/imgs/apple.png")}
+                  width="120px"
+                  alt="appstore img"
+                />
+              </a>
             </div>
           </div>
         </div>

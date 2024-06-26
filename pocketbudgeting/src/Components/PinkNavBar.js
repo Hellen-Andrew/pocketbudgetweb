@@ -26,12 +26,6 @@ const Navbar = () => {
           >
             Flash
           </a>
-          {/* <a
-            href="#"
-            className="text-black px-3 py-2 rounded-md font-16 font-medium"
-          >
-            Marketplace
-          </a> */}
         </div>
       </div>
     </nav>
