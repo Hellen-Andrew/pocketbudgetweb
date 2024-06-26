@@ -1,4 +1,5 @@
 import React from "react";
+import ImageSlider from "./ImageSlider";
 
 const Body = () => {
   return (
@@ -135,6 +136,13 @@ const Body = () => {
           </div>
         </div>
       </div>
+      {/* <div className="text-[39px] text-black my-5 md:flex md:justify-center leading-10 relative">
+        Making Vitha pocket greater
+      </div>
+      <div className="text-[20px] ">
+        Make Vitha pocket budgeting a great app by suggesting new features to
+        add, and feedback on what to improve to make the your experience great.
+      </div> */}
     </div>
   );
 };

@@ -14,7 +14,21 @@
 
 }
 
+.slider-container {
+    border-radius: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+    
+  }
+  
+  .slick-slide img {
+    width: 40%;
+    height: 30%;
+  }
+  
 
+  /* responsive style kwa small devices kwajili ya kumanage size ya radial circle  */
 @media (max-width: 768px) {
     .bg-custom-gradient {
         width: 300px;
