@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom-gradient {
+    position: absolute;
+    width: 850px; /* Adjusted to make the semicircle larger */
+    height: 850px;
+    background-image: radial-gradient(circle at center, rgba(41, 155, 232, 0.8) 0%, rgba(71, 190, 71, 0.8) 100%);
+     opacity:0.55;
+     filter: blur(64px);
+     border-radius: 50%;
+    /* clip-path: ellipse(50% 50% at 50% 50%); */
+
+}
+
+
+@media (max-width: 768px) {
+    .bg-custom-gradient {
+        width: 300px;
+        height: 300px;
+        filter: blur(64px);
+    }
+}
